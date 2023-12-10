@@ -1,5 +1,8 @@
 body {
     font-family: sans-serif;
+    min-height: 100vh; /* Ensure the page has a minimum height of the viewport */
+    display: flex;
+    flex-direction: column; /* Make the main section take up the full height of the page */
 }
 
 header {
@@ -12,6 +15,7 @@ header h1 {
 }
 
 main {
+    flex: 1; /* Set the main section to take up 100% of the available space */
     margin: 40px 0 40px 0;
     text-align: center;
 }
