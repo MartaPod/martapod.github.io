@@ -20,6 +20,10 @@ main {
     text-align: center;
 }
 
+.embedded-text {
+    text-align: center;
+}
+
 footer {
     background-color: #ccc;
     padding: 20px;
